@@ -2,9 +2,9 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "~/*": ["./src/*"]
-    },
+    // "paths": {
+    //   "~/*": ["./src/*"]
+    // },
     "plugins": [{ "name": "next" }],
     "strict": true
   },
