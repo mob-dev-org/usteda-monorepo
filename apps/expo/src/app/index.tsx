@@ -14,7 +14,7 @@ function PostCard(props: {
   return (
     <View className="flex flex-row rounded-lg bg-white/10 p-4">
       <View className="flex-grow">
-        <Link
+        {/* <Link
           asChild
           href={{
             pathname: "/post/[id]",
@@ -27,7 +27,7 @@ function PostCard(props: {
             </Text>
             <Text className="mt-2 text-white">{props.post.content}</Text>
           </TouchableOpacity>
-        </Link>
+        </Link> */}
       </View>
       <TouchableOpacity onPress={props.onDelete}>
         <Text className="font-bold uppercase text-pink-400">Delete</Text>
